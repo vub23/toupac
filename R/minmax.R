@@ -8,6 +8,8 @@
 #' @examples minmax(c(1,2,3))
 minmax <- function(x)
 {
+  checkmate::assert_numeric(x)
+
   y <- (x-min(x, na.rm = T))/(max(x, na.rm = T) - min(x, na.rm = T))
   return(y)
 }

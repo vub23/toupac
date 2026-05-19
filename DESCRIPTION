@@ -2,7 +2,7 @@ Package: toupac
 Title: Some Functions
 Version: 0.0.0.9000
 Authors@R: 
-    person("Binh", "Vu", , "first.last@example.com", role = c("aut", "cre"))
+    person("Binh", "Vu", , "2464.vu@gmail.com", role = c("aut", "cre"))
 Description: Provides convenient functions for data wrangling and visualization.
 License: MIT + file LICENSE
 Encoding: UTF-8
